@@ -1,0 +1,633 @@
+{
+  "source": "../../image.png",
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceFormat": "8-bit RGBA",
+  "extraction": "Original RGB values and alpha >= 200 are retained; low-opacity green vignette pixels are made transparent. Ground dirt extensions repeat an unscaled source dirt band.",
+  "crops": [
+    {
+      "name": "ground-650x100.png",
+      "x": 17,
+      "y": 15,
+      "width": 650,
+      "height": 100,
+      "topOffset": 38,
+      "geometry": [
+        650,
+        100
+      ],
+      "extend": 600,
+      "dirtBands": [
+        {
+          "x": 17,
+          "y": 115,
+          "height": 48
+        },
+        {
+          "x": 200,
+          "y": 260,
+          "height": 64
+        }
+      ],
+      "dirtTile": {
+        "x": 200,
+        "y": 260,
+        "height": 64
+      },
+      "outputSize": [
+        650,
+        700
+      ],
+      "sourceRegions": [
+        {
+          "x": 17,
+          "y": 15,
+          "width": 650,
+          "height": 100
+        },
+        {
+          "x": 17,
+          "y": 115,
+          "height": 48,
+          "width": 650
+        },
+        {
+          "x": 200,
+          "y": 260,
+          "height": 64,
+          "width": 650
+        },
+        {
+          "x": 200,
+          "y": 260,
+          "height": 64,
+          "width": 650,
+          "repeats": 8
+        }
+      ]
+    },
+    {
+      "name": "ground-edge-left.png",
+      "x": 17,
+      "y": 15,
+      "width": 64,
+      "height": 153,
+      "outputSize": [
+        64,
+        153
+      ],
+      "sourceRegions": [
+        {
+          "x": 17,
+          "y": 15,
+          "width": 64,
+          "height": 153
+        }
+      ]
+    },
+    {
+      "name": "ground-edge-right.png",
+      "x": 995,
+      "y": 15,
+      "width": 64,
+      "height": 153,
+      "outputSize": [
+        64,
+        153
+      ],
+      "sourceRegions": [
+        {
+          "x": 995,
+          "y": 15,
+          "width": 64,
+          "height": 153
+        }
+      ]
+    },
+    {
+      "name": "platform-260x32.png",
+      "x": 242,
+      "y": 15,
+      "width": 260,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        260,
+        32
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        260,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 242,
+          "y": 15,
+          "width": 260,
+          "height": 48
+        },
+        {
+          "x": 242,
+          "y": 100,
+          "width": 260,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "ground-260x100.png",
+      "x": 200,
+      "y": 193,
+      "width": 260,
+      "height": 90,
+      "topOffset": 25,
+      "geometry": [
+        260,
+        100
+      ],
+      "extend": 600,
+      "dirtBands": [
+        {
+          "x": 200,
+          "y": 283,
+          "height": 40
+        },
+        {
+          "x": 242,
+          "y": 115,
+          "height": 48
+        }
+      ],
+      "dirtTile": {
+        "x": 242,
+        "y": 100,
+        "height": 56
+      },
+      "outputSize": [
+        260,
+        690
+      ],
+      "sourceRegions": [
+        {
+          "x": 200,
+          "y": 193,
+          "width": 260,
+          "height": 90
+        },
+        {
+          "x": 200,
+          "y": 283,
+          "height": 40,
+          "width": 260
+        },
+        {
+          "x": 242,
+          "y": 115,
+          "height": 48,
+          "width": 260
+        },
+        {
+          "x": 242,
+          "y": 100,
+          "height": 56,
+          "width": 260,
+          "repeats": 10
+        }
+      ]
+    },
+    {
+      "name": "platform-250x32.png",
+      "x": 537,
+      "y": 15,
+      "width": 250,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        250,
+        32
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        250,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 537,
+          "y": 15,
+          "width": 250,
+          "height": 48
+        },
+        {
+          "x": 537,
+          "y": 100,
+          "width": 250,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "ground-680x100.png",
+      "x": 379,
+      "y": 193,
+      "width": 680,
+      "height": 90,
+      "topOffset": 25,
+      "geometry": [
+        680,
+        100
+      ],
+      "extend": 600,
+      "dirtBands": [
+        {
+          "x": 379,
+          "y": 283,
+          "height": 40
+        },
+        {
+          "x": 379,
+          "y": 115,
+          "height": 48
+        }
+      ],
+      "dirtTile": {
+        "x": 379,
+        "y": 100,
+        "height": 56
+      },
+      "outputSize": [
+        680,
+        690
+      ],
+      "sourceRegions": [
+        {
+          "x": 379,
+          "y": 193,
+          "width": 680,
+          "height": 90
+        },
+        {
+          "x": 379,
+          "y": 283,
+          "height": 40,
+          "width": 680
+        },
+        {
+          "x": 379,
+          "y": 115,
+          "height": 48,
+          "width": 680
+        },
+        {
+          "x": 379,
+          "y": 100,
+          "height": 56,
+          "width": 680,
+          "repeats": 10
+        }
+      ]
+    },
+    {
+      "name": "platform-edge-left.png",
+      "x": 16,
+      "y": 193,
+      "width": 64,
+      "height": 133,
+      "outputSize": [
+        64,
+        133
+      ],
+      "sourceRegions": [
+        {
+          "x": 16,
+          "y": 193,
+          "width": 64,
+          "height": 133
+        }
+      ]
+    },
+    {
+      "name": "platform-edge-right.png",
+      "x": 995,
+      "y": 193,
+      "width": 64,
+      "height": 133,
+      "outputSize": [
+        64,
+        133
+      ],
+      "sourceRegions": [
+        {
+          "x": 995,
+          "y": 193,
+          "width": 64,
+          "height": 133
+        }
+      ]
+    },
+    {
+      "name": "platform-110x24.png",
+      "x": 617,
+      "y": 15,
+      "width": 110,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        110,
+        24
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        110,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 617,
+          "y": 15,
+          "width": 110,
+          "height": 48
+        },
+        {
+          "x": 617,
+          "y": 100,
+          "width": 110,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "platform-150x24.png",
+      "x": 782,
+      "y": 15,
+      "width": 150,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        150,
+        24
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        150,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 782,
+          "y": 15,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "x": 782,
+          "y": 100,
+          "width": 150,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "moving-100x20.png",
+      "x": 117,
+      "y": 15,
+      "width": 100,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        100,
+        20
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        100,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 117,
+          "y": 15,
+          "width": 100,
+          "height": 48
+        },
+        {
+          "x": 117,
+          "y": 100,
+          "width": 100,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "moving-84x20.png",
+      "x": 942,
+      "y": 15,
+      "width": 84,
+      "height": 104,
+      "topOffset": 37,
+      "geometry": [
+        84,
+        20
+      ],
+      "dirtHeight": 56,
+      "compose": true,
+      "outputSize": [
+        84,
+        104
+      ],
+      "sourceRegions": [
+        {
+          "x": 942,
+          "y": 15,
+          "width": 84,
+          "height": 48
+        },
+        {
+          "x": 942,
+          "y": 100,
+          "width": 84,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "grass-clump-a.png",
+      "x": 16,
+      "y": 687,
+      "width": 102,
+      "height": 58,
+      "outputSize": [
+        102,
+        58
+      ],
+      "sourceRegions": [
+        {
+          "x": 16,
+          "y": 687,
+          "width": 102,
+          "height": 58
+        }
+      ]
+    },
+    {
+      "name": "grass-clump-b.png",
+      "x": 158,
+      "y": 687,
+      "width": 85,
+      "height": 58,
+      "outputSize": [
+        85,
+        58
+      ],
+      "sourceRegions": [
+        {
+          "x": 158,
+          "y": 687,
+          "width": 85,
+          "height": 58
+        }
+      ]
+    },
+    {
+      "name": "flower-pink.png",
+      "x": 714,
+      "y": 708,
+      "width": 28,
+      "height": 37,
+      "outputSize": [
+        28,
+        37
+      ],
+      "sourceRegions": [
+        {
+          "x": 714,
+          "y": 708,
+          "width": 28,
+          "height": 37
+        }
+      ]
+    },
+    {
+      "name": "flower-white.png",
+      "x": 772,
+      "y": 693,
+      "width": 35,
+      "height": 57,
+      "outputSize": [
+        35,
+        57
+      ],
+      "sourceRegions": [
+        {
+          "x": 772,
+          "y": 693,
+          "width": 35,
+          "height": 57
+        }
+      ]
+    },
+    {
+      "name": "flower-yellow.png",
+      "x": 850,
+      "y": 703,
+      "width": 35,
+      "height": 47,
+      "outputSize": [
+        35,
+        47
+      ],
+      "sourceRegions": [
+        {
+          "x": 850,
+          "y": 703,
+          "width": 35,
+          "height": 47
+        }
+      ]
+    },
+    {
+      "name": "flower-purple.png",
+      "x": 925,
+      "y": 693,
+      "width": 40,
+      "height": 57,
+      "outputSize": [
+        40,
+        57
+      ],
+      "sourceRegions": [
+        {
+          "x": 925,
+          "y": 693,
+          "width": 40,
+          "height": 57
+        }
+      ]
+    },
+    {
+      "name": "flower-small.png",
+      "x": 1016,
+      "y": 703,
+      "width": 20,
+      "height": 32,
+      "outputSize": [
+        20,
+        32
+      ],
+      "sourceRegions": [
+        {
+          "x": 1016,
+          "y": 703,
+          "width": 20,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "name": "stone-cluster.png",
+      "x": 1177,
+      "y": 697,
+      "width": 87,
+      "height": 63,
+      "outputSize": [
+        87,
+        63
+      ],
+      "sourceRegions": [
+        {
+          "x": 1177,
+          "y": 697,
+          "width": 87,
+          "height": 63
+        }
+      ]
+    },
+    {
+      "name": "bush-cluster.png",
+      "x": 245,
+      "y": 774,
+      "width": 128,
+      "height": 79,
+      "outputSize": [
+        128,
+        79
+      ],
+      "sourceRegions": [
+        {
+          "x": 245,
+          "y": 774,
+          "width": 128,
+          "height": 79
+        }
+      ]
+    }
+  ]
+}

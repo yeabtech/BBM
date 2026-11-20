@@ -1,0 +1,33 @@
+{
+  "name": "@bbm/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json && node scripts/copy-migrations.mjs",
+    "start": "node dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "node --import tsx --test tests/unit/*.test.ts",
+    "test:integration": "node --import tsx --test --test-concurrency=1 tests/integration/*.test.ts",
+    "migrate": "node dist/infrastructure/persistence/postgres/migrate.js up",
+    "migration:status": "node dist/infrastructure/persistence/postgres/migrate.js status"
+  },
+  "dependencies": {
+    "@bbm/game-simulation": "*",
+    "@bbm/shared-contracts": "*",
+    "@types/ws": "^8.18.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "pino": "^9.14.0",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.18.12",
+    "@types/pg": "^8.15.5",
+    "tsx": "^4.20.6"
+  }
+}
