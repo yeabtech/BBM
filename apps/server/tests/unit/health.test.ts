@@ -32,6 +32,7 @@ test("LAN status endpoint reports disabled defaults without exposing addresses",
     enabled: false,
     port: 3000,
     addresses: [],
+    interfaces: [],
     clientServed: false,
     canHost: false,
   });

@@ -1,6 +1,5 @@
 import Phaser from "phaser";
 import type { TestLevelDefinition } from "../level/level-config.js";
-import { LEVEL_VISUAL_CONFIG } from "../level/level-visual-config.js";
 
 export interface BuiltLevel {
   readonly platforms: Phaser.GameObjects.Rectangle[];
